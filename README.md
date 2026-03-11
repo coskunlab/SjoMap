@@ -5,7 +5,7 @@ The analysis code consists of "cosmx_xenium", "merfish", "seqfish", "IF", and "c
 
 ## cosmx_xenium
 
-"01_qcComparison.ipynb" calculates basic quanlity attribute comparisons between CosMx and Xenium data from the manuscript such as total transcripts detected per cells. Further, it performs patch effect normalization of common markers between CosMx and Xenium data. "annotation_v4.ipynb" performs cell type annotations for both Xenium and CosMx data based on the analysis output from the instrument run. "immuneCellSubtypes.ipynb" performs clustering analysis of each immune cell type to identify subtypes. "04_visualization.ipynb" generates tissue-level visualizations in napari.
+`01_qcComparison.ipynb` calculates basic quanlity attribute comparisons between CosMx and Xenium data from the manuscript such as total transcripts detected per cells. Further, it performs patch effect normalization of common markers between CosMx and Xenium data. `annotation_v4.ipynb` performs cell type annotations for both Xenium and CosMx data based on the analysis output from the instrument run. `immuneCellSubtypes.ipynb` performs clustering analysis of each immune cell type to identify subtypes. `04_visualization.ipynb` generates tissue-level visualizations in napari.
 
 ### GATStromalNeighborhood
 
