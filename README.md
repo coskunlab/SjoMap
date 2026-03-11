@@ -1,7 +1,7 @@
 # SjoMap
 Code for manuscript titled "Spatial multi-omics reveals distinct stromal signatures of Sjögren’s Disease by anti-SSA antibody profile in Minor Salivary Gland tissues". 
 
-The analysis code consists of "cosmx_xenium", "merfish", "seqfish", "IF", and "coculture" sections. Each folder contains the analysis code for the corresponding datasets.
+The analysis code consists of `cosmx_xenium`, `merfish`, `seqfish`, `IF`, and `coculture` sections. Each folder contains the analysis code for the corresponding datasets.
 
 ## cosmx_xenium
 
@@ -9,7 +9,7 @@ The analysis code consists of "cosmx_xenium", "merfish", "seqfish", "IF", and "c
 
 ### GATStromalNeighborhood
 
-"GATStromalNeighborhood" folder contains code for graph attention network embedding of stromal neighborhoods. "combined_models.py" and "models.py" constructs necessary deep learning models. "subgraphSampling.ipynb" generates kNN graph across all cells in the same section, and samples cells within 2-hop distance from the stromal cells to form stromal neighborhoods. "graphClassifierTraining.ipynb" trains the GAT embedding and classification model using stromal neighborhoods from Xenium, and output basic model evaluation metrics and GAT projection. "graphEmbeddingAnalysisCommon.ipynb" performs downstream analysis based on the latent space embedding of stromal neighborhoods from Xenium data. "IntegrationClassification.ipynb" trains the domain adversarial neural network (DANN) to integrate stromal neighborhoods from Xenium and CosMx data, and calculate the latent space embedding. "DANNEmbeddingAnalysis.ipynb" performs downstream analysis based on the DANN integrated latent space. "pathwayFigures.ipynb" utilizes the output from Enrichr analysis to generate visualization of enriched pathways in selected cells. "04_visualization.ipynb" generates large-image visualization of stromal neighborhoods.
+`GATStromalNeighborhood` folder contains code for graph attention network embedding of stromal neighborhoods. `combined_models.py` and `models.py` constructs necessary deep learning models. `subgraphSampling.ipynb` generates kNN graph across all cells in the same section, and samples cells within 2-hop distance from the stromal cells to form stromal neighborhoods. `graphClassifierTraining.ipynb` trains the GAT embedding and classification model using stromal neighborhoods from Xenium, and output basic model evaluation metrics and GAT projection. `graphEmbeddingAnalysisCommon.ipynb` performs downstream analysis based on the latent space embedding of stromal neighborhoods from Xenium data. `IntegrationClassification.ipynb` trains the domain adversarial neural network (DANN) to integrate stromal neighborhoods from Xenium and CosMx data, and calculate the latent space embedding. `DANNEmbeddingAnalysis.ipynb` performs downstream analysis based on the DANN integrated latent space. `pathwayFigures.ipynb` utilizes the output from Enrichr analysis to generate visualization of enriched pathways in selected cells. "04_visualization.ipynb" generates large-image visualization of stromal neighborhoods.
 
 ### duplicateVerification
 
