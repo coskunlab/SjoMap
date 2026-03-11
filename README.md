@@ -25,4 +25,10 @@ Both `3hop` and `4hop` folders contain `combined_models.py`, `models.py`, `graph
 
 ### 140GenePanel
 
-`140GenePanel` folder contains code for analysis of 140 custom gene panel MERFISH data. `00_annotation.ipynb` performs cell type annotation. `01_neighborhoodSampling.ipynb` extracts stromal neighborhood. `02_DANNIntegration.ipynb` trains the DANN for data integration. `03_integrationAnalysis.ipynb` performs downstream analysis on the
+`140GenePanel` folder contains code for analysis of 140 custom gene panel MERFISH data. `00_annotation.ipynb` performs cell type annotation. `01_neighborhoodSampling.ipynb` extracts stromal neighborhood. `02_DANNIntegration.ipynb` trains the DANN for data integration. `03_integrationAnalysis.ipynb` performs downstream analysis on the latent space. `04_pathwayFigures.ipynb` generates pathway enrichment visualization from Enrichr analysis results. `visualization.ipynb` generates napari visualization. The outlier cell filtering was performed witht he assistance of napari visualization.
+
+### 815IOPanel
+
+`815IOPanel` contains code for analysis of 815 immune oncology panel MERFISH data. `01_annotation.ipynb` performs cell-type annotation. `02_outlierFiltering.ipynb` uses the napari software to help filtering outlier cells isolated from the tissue section. `03_neighborhoodSampling.ipynb` finds stromal neighborhoods. `04_DANN.ipynb` trains the DANN for data integration. `05_integrationAnalysis.ipynb` performs downstream anlaysis of DANN integration. `06_pathway.ipynb` performs pathway enrichment analysis based on the elevated markers of selected cell groups.
+
+# Code running environments
