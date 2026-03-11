@@ -21,4 +21,8 @@ Both `3hop` and `4hop` folders contain `combined_models.py`, `models.py`, `graph
 
 ## merfish
 
-`merfish` folder contains code for the analysis of 
+`merfish` folder contains code for the analysis of MERFISH data of 140 custom gene panel and 815 immune-oncology panel. 
+
+### 140GenePanel
+
+`140GenePanel` folder contains 
