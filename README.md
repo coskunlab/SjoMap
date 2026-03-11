@@ -25,4 +25,4 @@ Both `3hop` and `4hop` folders contain `combined_models.py`, `models.py`, `graph
 
 ### 140GenePanel
 
-`140GenePanel` folder contains 
+`140GenePanel` folder contains code for analysis of 140 custom gene panel MERFISH data. `00_annotation.ipynb` performs cell type annotation. `01_neighborhoodSampling.ipynb` extracts stromal neighborhood. `02_DANNIntegration.ipynb` trains the DANN for data integration. `03_integrationAnalysis.ipynb` performs downstream analysis on the
