@@ -16,3 +16,9 @@ The analysis code consists of `cosmx_xenium`, `merfish`, `seqfish`, `IF`, and `c
 `xenium_set1` and `xenium_set2` folders contain `combined_models.py`, `models.py`, `graphClassifierTraining.ipynb`, and `graphEmbeddingAnalysisCommon.ipynb`. They train the GAT model using one of the duplicates of Xenium data, and performs downstream analysis of the latent space. `cosmx_set1` and `cosmx_set2` folders contain `combined_models.py`, `models.py`, "integrationClassification.ipynb", and `DANNEmbeddingAnalysis.ipynb`. They train teh DANN model using one of the duplicates on CosMx data and performs downstream analysis of the latent space.
 
 ### tunableNeighborhoods
+
+Both `3hop` and `4hop` folders contain `combined_models.py`, `models.py`, `graphClassifierTraining.ipynb`, `graphEmbeddingAnalysisCommon.ipynb`, and `subgraphSampling.ipynb`. `subgraphSampling.ipynb` generates stromal neighborhoods of appropriate sizes. `graphClassifierTraining.ipynb` trains the GAT model. `graphEmbeddingAnalysisCommon.ipynb` performs downstream anslysis on the latent space. `neighborhoodSize.ipynb` quantifies the average size of 2-hop, 3-hop, and 4-hop neighborhoods.
+
+## merfish
+
+`merfish` folder contains code for the analysis of 
