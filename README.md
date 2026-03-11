@@ -13,4 +13,6 @@ The analysis code consists of "cosmx_xenium", "merfish", "seqfish", "IF", and "c
 
 ### duplicateVerification
 
-In "xenium_set1" and "xenium_set2" folders, 
+"xenium_set1" and "xenium_set2" folders contain "combined_models.py", "models.py", "graphClassifierTraining.ipynb", and "graphEmbeddingAnalysisCommon.ipynb". They train the GAT model using one of the duplicates of Xenium data, and performs downstream analysis of the latent space. "cosmx_set1" and "cosmx_set2" folders contain "combined_models.py", "models.py", "integrationClassification.ipynb", and "DANNEmbeddingAnalysis.ipynb". They train teh DANN model using one of the duplicates on CosMx data and performs downstream analysis of the latent space.
+
+### tunableNeighborhoods
