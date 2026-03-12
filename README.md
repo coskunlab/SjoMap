@@ -32,3 +32,7 @@ Both `3hop` and `4hop` folders contain `combined_models.py`, `models.py`, `graph
 `815IOPanel` contains code for analysis of 815 immune oncology panel MERFISH data. `01_annotation.ipynb` performs cell-type annotation. `02_outlierFiltering.ipynb` uses the napari software to help filtering outlier cells isolated from the tissue section. `03_neighborhoodSampling.ipynb` finds stromal neighborhoods. `04_DANN.ipynb` trains the DANN for data integration. `05_integrationAnalysis.ipynb` performs downstream anlaysis of DANN integration. `06_pathway.ipynb` performs pathway enrichment analysis based on the elevated markers of selected cell groups.
 
 # Code running environments
+
+Different analysis needs to be run in diferent conda environments. Code for training deep learning models can be run under the environment specified by `torchEnv.txt`. Napari visualization codes can be run under `naparienv.txt`. All ohter code can be run under `scanpy.txt`.
+
+The envionrments can be created using the following command: `conda create --name [envName] --file [environment].txt`
